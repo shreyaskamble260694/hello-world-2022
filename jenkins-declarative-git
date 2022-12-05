@@ -1,0 +1,10 @@
+pipeline{
+    agent any
+    stages{
+        stage("gitcheckout"){
+            steps{
+             git 'https://github.com/shreyaskamble260694/hello-world-2022.git'   
+            }
+        }
+    }
+}
